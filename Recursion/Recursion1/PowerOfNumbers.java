@@ -1,4 +1,4 @@
-package Recursion.Recusion1;
+package Recursion.Recursion1;
 
 public class PowerOfNumbers {
     public static void main(String[] args) {
