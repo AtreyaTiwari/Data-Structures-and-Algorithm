@@ -16,10 +16,7 @@ public class MyLinkedList {
     public MyLinkedList() {
         
     }
-    public void deleteNode(Node node) {
-        node.val=node.next.val;
-        node.next=node.next.next;
-    }
+    
     public Node getNode(int index) {
         if(index<0 || index>=size){
             return null;
@@ -29,6 +26,10 @@ public class MyLinkedList {
             temp=temp.next;
         }
         return temp;
+    }
+    public void deleteNode(Node node) {
+        node.val=node.next.val;
+        node.next=node.next.next;
     }
     
     public int get(int index) {
